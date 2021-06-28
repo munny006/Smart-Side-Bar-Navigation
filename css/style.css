@@ -1,0 +1,85 @@
+.sideNavOpen{
+	height: 100%;
+	width: 220px;
+	position: fixed;
+	top: 0;
+	overflow-x: hidden;
+	transition: 0.1s;
+	padding-left: 10px;
+	z-index: 10;
+	background-color:#CA226B;
+}
+
+
+.NavMenuBar{
+	color: #CA226B!important;
+	font-size:19px!important;
+}
+
+
+.sideNavClose{
+	height: 100%;
+	width: 60px;
+	
+	position: fixed;
+	top: 0;
+	overflow-x: hidden;
+	transition: 0.1s;
+	padding-left: 10px;
+	background-color:#dc3545;
+}
+
+
+.MainOverlay{
+	display: block;
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.MainOverlayClose{
+	display: none;
+	
+}
+
+
+.content{
+	
+	z-index: 5;
+}
+
+
+.nav-menu-item{
+text-decoration: none;
+color: white;
+font-size: 25px;
+}
+
+
+.nav-menu-item:hover{
+text-decoration: none; 
+border-left: 5px solid white;
+transition: 0.1s; 
+}
+
+
+@media (max-width: 575.98px) {
+	.content{
+	
+margin-left: 0;
+}
+
+.sideNavClose{
+	
+	visibility: hidden;
+	
+}
+
+}
+
